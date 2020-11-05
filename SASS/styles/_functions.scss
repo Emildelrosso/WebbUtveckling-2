@@ -1,9 +1,36 @@
+//Funktioner för SASS
+
 @import "./variables";
 
-@mixin color($color) {
-    background-color: $color;
+@mixin background_img() {
+    background-image: $bgi;
+    background-size: $bgi_cover;
+    background-attachment: $bgi_attach;
 }
 
-@mixin change_font_size($font) {
-    font-size: $font;
+@mixin main_div() {
+    width: $main_width;
+    height: $main_height;
+    margin: $main_margin;
+    background-color: $bgc;
+    border: $main_border;
+    text-align: $text_align;
+    opacity: $opacity;
+    color: $text_color;
+}
+
+@mixin header() {
+    font-size: $main_font;
+    margin-top: $margin_top;
+    
+}
+
+@mixin change_font_size() {
+    font-size: $text_font;
+    margin-left: $margin_left;
+    margin-right: $margin_right;
+}
+
+@mixin float_left($float_left) {
+    float: $float_left;
 }

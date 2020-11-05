@@ -1,8 +1,32 @@
 body {
-  background-color: #990000;
+  background-image: url(../BGI1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.test {
-  font-size: 165px;
+.main {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  background-color: #140202;
+  border: 2px solid #9e0909;
+  text-align: center;
+  opacity: 0.999;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+p, .homepage {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.button {
+  float: left;
 }
 /*# sourceMappingURL=master.css.map */

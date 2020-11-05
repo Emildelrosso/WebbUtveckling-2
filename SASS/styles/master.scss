@@ -1,10 +1,24 @@
+//Importera funktioner med @include
+
 @import "./variables";
 @import "./functions";
 
 body {
-    @include color($redder);
+    @include background_img();
 }
 
-.test {
-    @include change_font_size($super_large);
+.main {
+    @include main_div();
+}
+
+h1 {
+    @include header();
+}
+
+p, .homepage {
+    @include change_font_size();
+}
+
+.button {
+    @include float_left($float_left);
 }
